@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,600;1,100;1,200;1,400&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: small;
+    background-color: #b36e08;
+}
+
+
+.container{
+    overflow: hidden;
+}
+
+/* Style pour le container */
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: palegoldenrod;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+/* Style pour la barre de navigation */
+nav {
+    background-color: #8b0606;
+    overflow: hidden;
+} 
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} 
+nav li {
+    float: left;
+}
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+a:hover{
+    color: #000000;
+    background: #cdb306;
+    transition-duration: 1s;
+    box-shadow: 0 0 30px #fff, 0 0 50px #fff, 0 0 100px #fff;
+}
+
+
+/* Les collones */
+.columns{
+    column-count: 3;
+    column-gap: 30px;
+    text-align: justify;
+}   
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+h2{
+    text-align: center;
+}
+
+.debut{
+    text-align: center;
+    margin-left: 350px;
+}
+
+span{
+    color: #b36e08;
+}
+
+
+/* Style puor le tableau et le formulaire*/
+table{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.formulaire{
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+fieldset {
+    padding: 10px;
+}
+
+input[type = "reset"], input[type = "submit"]{
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+
+th{
+    background-color: yellow;
+    text-transform: uppercase;
+}
+
+th:hover{
+    color: red;
+}
+
+th, td{
+    border: thin solid red;
+}
+
+
+td{
+    font-style: italic;
+}
+
+
+/* Le footer */
+footer{
+    margin-top: 50px;
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+}
